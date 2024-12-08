@@ -8,8 +8,8 @@ public class ReverseSentence {
 		reverse.isRevSentence(" Hello, how   are you ?");
 		System.out.println();
 		
-		String name = "Today is   Sunday";  //OP: Sunday is Today
-		
+		String name = " Today is   Sunday";  //OP: Sunday is Today
+		name = name.trim();
 		String rev[] = name.split("\\s+");   // \\s+ : used to remove more than one space in between
 		
 		for(int i=rev.length-1; i>=0; i--) {
