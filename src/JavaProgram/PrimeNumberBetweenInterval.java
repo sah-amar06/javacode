@@ -7,7 +7,7 @@ public class PrimeNumberBetweenInterval {
 		int start = 10;
 		int end = 70;
 
-		while (start < end) {
+		while (start <= end) {
 
 			boolean flag = false;
 			for (int i = 2; i < start/2 ; i++) {

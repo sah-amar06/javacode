@@ -6,7 +6,7 @@ public class FibonacciSeries {
 		
 		//Fibonacci number: Next number is the sum of previous two numbers
 		
-		isFibonacci(10);
+		isFibonacci(20);
 		
 
 	}

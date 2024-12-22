@@ -12,7 +12,7 @@ public class Powerconcept {
 		long result = 1;
 		
 		while(expo !=0) {
-			result = result*base;
+			result = result*base;//
 			--expo;
 		}
 		System.out.println(result);
